@@ -28,9 +28,16 @@ set tw=500
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
+set hidden
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+set cmdheight=2
+filetype on
+set laststatus=2
 
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
 map <F2> :Flisttoggle<CR> 
+map <F3> :NERDTreeToggle<CR> 
+map <C-B> :!php -l %<CR>
