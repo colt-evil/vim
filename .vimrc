@@ -34,3 +34,4 @@ map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
 map <F2> :Flisttoggle<CR> 
+map <F3> :NERDTreeToggle<CR> 
