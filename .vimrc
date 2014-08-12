@@ -23,7 +23,6 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set tabstop=4
-set paste
 set tw=500
 
 set ai "Auto indent
